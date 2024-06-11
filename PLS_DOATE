@@ -28,8 +28,8 @@ if isfile and writefile and typeof(isfile) == 'function' and typeof(writefile) =
 		writefile('PromptedDiscordLinoriaCFRR.txt', game:GetService('HttpService'):JSONEncode('hi'))
 		local Module = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Discord%20Inviter/Source.lua"))()
 		Module.Prompt({
-			invite = "https://discord.gg/xFJEaarbYZ",
-			name = "Omega Hub",
+			invite = "https://discord.gg/fNeggqVMZs",
+			name = "CF-Community",
 		})
 	end
 end
@@ -318,7 +318,7 @@ local SaveManager = loadstring(game:HttpGet(repoLib .. 'addons/SaveManager.lua')
 local positionX = workspace:WaitForChild('Boomboxes'):WaitForChild('Spawn')
 
 local Window = Library:CreateWindow({
-	Title = 'Omega Hub',
+	Title = 'pls donate | szze#6220',
 	Center = true,
 	AutoShow = true,
 })
@@ -341,7 +341,7 @@ local miscMainT = Tabs.miscTab:AddRightGroupbox('')
 local infoMain = Tabs.InfoTab:AddLeftGroupbox('')
 local infoExpand = Tabs.InfoTab:AddRightGroupbox('')
 
-infoMain:AddLabel('Pls Donate ')
+infoMain:AddLabel('Pls Donate | overhaul by szze#6220')
 infoMain:AddLabel('Config saves every 10 seconds')
 
 boothTextSettings:AddInput('boothTextTextbox', {
